@@ -1,0 +1,31 @@
+body {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+height:100%;
+/*text-align:left;*/
+font-size:16px;
+background: url("../images/background.jpg");
+}
+
+#gameTitle {
+	font-size:26px;
+	text-align: center;
+	background: lightblue;
+}
+
+#start { 
+	height: 80px;
+	width: 150px;
+	margin-left: 20px;
+}
+#timeleft {
+	font-size:26px;
+	margin-left: 20px;
+	background: lightblue;
+}
+
+#questions {
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 150px;
+	background: lightblue;
+}

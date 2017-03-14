@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trivia Game</title>
+
+
+    <!-- jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<div class="row">
+  <div id="gameTitle" class="jumbotron" class="col-md-4">Extremely Easy Trivia!</div>
+</div>
+
+<div class="row">
+<div class="col-md-4">
+<div id="gameStart">
+	<button id="start">Start</button>
+</div>
+<div id="timeLeft" class="col-md-4">Time Remaining: </div>
+</div>
+</div>
+
+<div id = "questions">
+<div class="row">
+	<div class="col-lg-7">
+		<h1>What is the third letter in the english alphabet?</h1>
+			<div id = "question1">
+				<form action="">
+  					<div class="col-lg-3">
+  						<input type="radio" name="letterGuess" id="ans1-1" value="a"> A<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="letterGuess" id="ans1-2" value="b"> B<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="letterGuess" id="ans1-3" value="c"> C<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="letterGuess" id="ans1-4" value="d"> D<br>
+  					</div>
+				</form>
+			</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-lg-7">
+	<div></div>
+		<h1>What is the highest selling product in wallmart?</h1>
+			<div id = "question2">
+				<form action="">
+  					<div class="col-lg-3">
+  						<input type="radio" name="productGuess" id="ans2-1" value="bananas"> Bananas<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="productGuess" id="ans2-2" value="toilet-paper"> Toilet paper<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="productGuess" id="ans2-3" value="coffee"> Coffee<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="productGuess" id="ans2-4" value="clothes"> Clothes<br>
+  					</div>
+				</form>
+			</div>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-lg-7">
+		<h2>Which of these is NOT a fruit?</h2>
+			<div id = "question3">
+				<form action="">
+  					<div class="col-lg-3">
+  						<input type="radio" name="fruitGuess" id="ans3-1" value="avocado"> Avocado<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="fruitGuess" id="ans3-2" value="chocolate-chip cookiees"> Chocolate-Chip Cookies<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="fruitGuess" id="ans3-3" value="apples"> Apples<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="fruitGuess" id="ans3-4" value="grapes"> Grapes<br>
+  					</div>
+				</form>
+			</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-lg-7">
+		<h1>Who was the first President of the United States?</h1>
+			<div id = "question4">
+				<form action="">
+  					<div class="col-lg-3">
+  						<input type="radio" name="presGuess" id="ans4-1" value="thomas jefferson"> Thomas Jefferson<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="presGuess" id="ans4-2" value="john quincy adams"> John Quincy Adams<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="presGuess" id="ans4-3" value="kermit the frog"> Kermit the Frog<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="presGuess" id="ans4-4" value="george washington"> George Washington<br>
+  					</div>
+				</form>
+			</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-lg-7">
+		<h1>What is the name of the Looney Tunes bunny?</h1>
+			<div id = "question5">
+				<form action="">
+  					<div class="col-lg-3">
+  						<input type="radio" name="looneyGuess" id="ans5-1" value="bugs bunny"> Bugs Bunny<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="looneyGuess" id="ans5-2" value="bigs bunny"> Bigs Bunny<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="looneyGuess" id="ans5-3" value="daffy bunny"> Daffy Bunny<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="looneyGuess" id="ans5-4" value="wile e. bunny"> Wile E. Bunny<br>
+  					</div>
+				</form>
+			</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-lg-7">
+		<h1>What year is it?</h1>
+			<div id = "question6">
+				<form action="">
+  					<div class="col-lg-3">
+  						<input type="radio" name="yearGuess" id="ans6-1" value="2016"> 2016<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="yearGuess" id="ans6-2" value="2017"> 2017<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="yearGuess" id="ans6-3" value="2010"> 2010<br>
+  					</div>
+  					<div class="col-lg-3">
+  						<input type="radio" name="yearGuess" id="ans6-4" value="2020"> 2020<br>
+  					</div>
+				</form>
+			</div>
+	</div>
+</div>
+<br>
+	<button id="submit">Submit</button>
+</div>
+
+
+
+
+    <!-- Script -->
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
